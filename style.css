@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --main-font: "Oswald", sans-serif;
+    --head-font:"Bona Nova SC", serif;
+}
+.big-container{
+    margin-top:0px;
+}
+.container img{
+    position:relative;
+    height:600px;
+    width:660px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0px 15px;
+    object-fit: contnain;
+    padding:50px;
+}
+
+.inner-container {
+    display:flex; 
+    position:absolute;
+    top:30px;
+    right:100px;
+}
+
+.inner-container a{
+    text-decoration: none;
+    color:white;
+    font-family:var(--main-font);
+    padding:5px 10px;
+    font-size:26px;
+}
+
+.container h1{
+    font-family:var(--head-font);
+    position:absolute;
+    top:280px;
+    left:850px;
+    font-size:80px;
+    color:white;
+}
+
+.container h1 span{
+    font-size:150px
+}
+
+.section-one{
+    margin:100px 176px;
+}
+
+.spots{
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:20px;
+
+}
+.spots img{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:270px;
+    width:270px;
+    padding:10px;
+}
+
+.section-one h1,
+.section-two h1{
+    font-family:var(--main-font);
+    font-size:50px;
+    text-align:center;
+    color:#046487;
+}
+
+.resort{
+    display:flex;
+    margin-left:200px;
+}
+
+.resort-one,
+.resort-two,
+.resort-three{
+    margin:20px;
+    padding:10px;
+}
+.resort-one p,
+.resort-two p,
+.resort-three p{
+    padding:10px;
+    font-size:25px;
+    text-align:center;
+    color:#046487;
+    font-family:var(--head-font);
+}
+
+.resort-one img,
+.resort-two img,
+.resort-three img
+{
+    height:300px;
+    width:300px;
+    border-radius:50%;
+    border:5px solid #046487;
+}
+
+.footer
+{
+    display:flex;
+    font-size:20px;
+    color:#046487;
+    margin-top:50px;
+    justify-content:center;
+
+}
+.foot{
+    margin:40px;
+}
+
+.foot p{
+    margin-top:15px;
+}
+.big-container
+{
+    background:linear-gradient(#2BD2FF,white,#5dd3f3,white,#2BD2FF);
+}
+
+.li:hover{
+    color:#046487;
+}
